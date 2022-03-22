@@ -94,7 +94,6 @@ header nav {
 }
 
 .hero-image {
-  padding-left: 2rem;
 }
 
 .hero-text h1 {
@@ -104,9 +103,12 @@ header nav {
 
 .hero-text p {
   font-size: 1.8rem;
+  color: #E5E7EB;
 }
 
-.hero-text button {}
+.hero-text button {
+  margin-top: 1.5rem;
+}
 
 .hero-image {
   background-color: #6d747d;
