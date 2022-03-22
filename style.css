@@ -1,0 +1,116 @@
+/* TOP LEVEL STYLES */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1F2937;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ELEMENT STYLES */
+a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #3b82f6;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+/* GENERAL CLASS STYLES */
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #1F2937;
+  color: #f9faf8
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.header-logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.page-links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.page-links-list li {
+  color: red;
+  margin-right: 1.5rem;
+}
+
+.page-links-list li a {
+  display: block;
+  font-size: 1.8rem;
+  color: #e5e7eb;
+}
+
+/* HERO */
+.hero {
+  padding: 10rem 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text,
+.hero-image {
+  flex: 1;
+}
+
+.hero-text {
+  padding-right: 2rem;
+}
+
+.hero-image {
+  padding-left: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 4.8rem;
+  font-weight: extra-bold;
+}
+
+.hero-text p {
+  font-size: 1.8rem;
+}
+
+.hero-text button {}
+
+.hero-image {
+  background-color: #6d747d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
