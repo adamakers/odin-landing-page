@@ -187,7 +187,34 @@ header nav {
   font-style: normal;
 }
 
+/* CALL TO ACTION */
+.call-to-action {
+  background-color: #fff;
+}
 
+.cta-box {
+  background-color: #3882f6;
+  padding: 3rem 8rem;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
 
+.cta-left {
+  flex-grow: 2;
+}
+
+.cta-left h3 {
+  font-size: 1.8rem;
+}
+
+.cta-left p {
+  font-size: 1.4rem;
+}
+
+.cta-right button {
+  border: 2px solid #fff;
+}
 
 
