@@ -217,4 +217,13 @@ header nav {
   border: 2px solid #fff;
 }
 
+/* FOOTER */
+footer {
+  padding: 3rem 0;
+}
+
+footer p {
+  color: #f9faf8;
+  text-align: center;
+}
 
