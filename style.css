@@ -15,6 +15,10 @@ body {
 }
 
 /* ELEMENT STYLES */
+section {
+  padding: 5rem;
+}
+
 a {
   text-decoration: none;
   color: #f9faf8;
@@ -116,3 +120,42 @@ header nav {
   justify-content: center;
   align-items: center;
 }
+
+/* INFORMATION SECTION */
+.information {
+  background-color: #fff;
+}
+
+.information h2 {
+  font-size: 3.6rem;
+  font-weight: extra-bold;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.info-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-box {
+  margin: 0 2rem;
+  width: 12rem;
+}
+
+.info-box .info-box-img {
+  border: 3px solid #3882f6;
+  height: 12rem;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.info-box .info-box-text {
+  text-align: center;
+}
+
+/* QUOTES */
+
